@@ -1,6 +1,30 @@
+import os
+import time
 from selenium import webdriver
 
+URL = 'https://news.yahoo.co.jp/'
+# DRIVER_PATH = os.path.join(os.path.dirname(__file__), 'chromedriver')
 
-driver = webdriver.PhantomJS()
-driver.get("https://t21.nikkei.co.jp/g3/CMNDF11.do")
-print(driver.find_element_by_id("content").text)
+SEARCH_WORD = 'python'
+
+if __name__ == '__main__':
+    try:
+        browser = webdriver.PhantomJS()
+        browser.get(URL)
+        print (browser.page_source)
+        time.sleep(3)
+        search_input = browser.find_element_by_name('p')
+        print (search_input)
+        search_input.send_keys(SEARCH_WORD)
+        search_input.submit()
+        time.sleep(3)
+        print(browser.title)
+        titles = browser.find_elements_by_xpath('//h2[@class="t"]')
+        for title in titles:
+            link = title. find_element_by_tag_name('a')
+            print(link.get_attribute("href"))
+            # print 
+    finally:
+        browser.quit()
+
+
