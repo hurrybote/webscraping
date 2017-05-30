@@ -5,7 +5,7 @@ from selenium import webdriver
 URL = 'https://news.yahoo.co.jp/'
 # DRIVER_PATH = os.path.join(os.path.dirname(__file__), 'chromedriver')
 
-SEARCH_WORD = 'python'
+SEARCH_WORD = '政治'
 
 if __name__ == '__main__':
     try:
@@ -23,7 +23,7 @@ if __name__ == '__main__':
         for title in titles:
             link = title. find_element_by_tag_name('a')
             print(link.get_attribute("href"))
-            # print 
+            
     finally:
         browser.quit()
 
