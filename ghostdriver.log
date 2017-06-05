@@ -1,271 +1,110 @@
-[INFO  - 2017-06-05T08:05:10.932Z] GhostDriver - Main - running on port 59627
-[INFO  - 2017-06-05T08:05:11.448Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-06-05T08:05:11.448Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.customHeaders:  - {}
-[INFO  - 2017-06-05T08:05:11.448Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-06-05T08:05:11.448Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b2c06e30-49c5-11e7-89db-d94a7ade107b
-[ERROR - 2017-06-05T08:05:16.623Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[INFO  - 2017-06-05T10:47:00.658Z] GhostDriver - Main - running on port 58544
+[INFO  - 2017-06-05T10:47:01.120Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-05T10:47:01.120Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.customHeaders:  - {}
+[INFO  - 2017-06-05T10:47:01.120Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-05T10:47:01.120Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4e2af3c0-49dc-11e7-909f-6f7e661e9e99
+[ERROR - 2017-06-05T10:47:03.612Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:16.623Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:03.612Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:16.967Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:03.854Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:16.967Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:03.854Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:24.252Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:10.920Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:24.252Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:10.920Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:24.731Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:11.130Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:24.731Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:11.130Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:29.387Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:14.902Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:29.387Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:14.903Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:33.144Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:15.130Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:33.144Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:15.130Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:36.974Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:20.943Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:36.975Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:20.944Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:37.454Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:21.185Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:37.455Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:21.185Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:43.658Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:25.458Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:43.659Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:25.458Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:44.265Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:25.666Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:44.265Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:25.666Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:52.467Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:33.825Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:52.467Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:33.825Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:53.042Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:33.997Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:53.042Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:33.997Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:56.883Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:39.402Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:56.883Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:39.402Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:57.294Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:39.691Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:05:57.294Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
+[ERROR - 2017-06-05T10:47:39.691Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
   fc (https://connect.facebook.net/en_US/fbevents.js:24)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:04.371Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-05T10:47:45.065Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - msg: undefined
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:04.371Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:04.672Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:04.672Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:11.385Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:11.385Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:11.740Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:11.740Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:16.366Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:16.366Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:17.237Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:17.238Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:23.701Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:23.701Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:23.973Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:23.974Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:29.980Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:29.980Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:30.404Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:30.404Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:34.600Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:34.600Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:34.939Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:34.939Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:39.751Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:39.751Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:40.023Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:40.023Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:43.741Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:43.741Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:44.126Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:44.126Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:51.716Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:51.716Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:52.037Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:52.037Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:58.153Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:58.153Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:58.514Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:06:58.514Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:02.547Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:02.547Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:02.881Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:02.881Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:11.269Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:11.269Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:11.539Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-06-05T08:07:11.539Z] Session [b2c06e30-49c5-11e7-89db-d94a7ade107b] - page.onError - stack:
-  fc (https://connect.facebook.net/en_US/fbevents.js:24)
+[ERROR - 2017-06-05T10:47:45.066Z] Session [4e2af3c0-49dc-11e7-909f-6f7e661e9e99] - page.onError - stack:
+  (anonymous function) (https://tpc.googlesyndication.com/pagead/js/r20170529/r20110914/abg.js:23)
 
   phantomjs://platform/console++.js:263 in error
