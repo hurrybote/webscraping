@@ -11,7 +11,7 @@ if __name__ == '__main__':
     try:
         browser = webdriver.PhantomJS()
         browser.get(URL)
-        print (browser.page_source)
+        # print (browser.page_source)
         time.sleep(3)
         search_input = browser.find_element_by_name('p')
         print (search_input)
