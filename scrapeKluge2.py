@@ -51,7 +51,7 @@ if __name__ == '__main__':
     data_list = []
     try:
         # URL = 'http://klug-fx.jp/fxnews/detail.php?id=26906'
-        URL = 'http://klug-fx.jp/fxnews/detail.php?id=295769'
+        URL = 'http://klug-fx.jp/fxnews/detail.php?id=320836'
         browser = webdriver.PhantomJS()
         browser.get(URL)
         # time.sleep(3)

@@ -34,12 +34,12 @@ def getNextURL(bsObj):
 
 
 def writeCSV(text_data, data_list):
-    if os.path.exists("./kluge_fx_2016.csv"):
-        with open('./kluge_fx_2016.csv', 'a') as f:
+    if os.path.exists("./kluge_fx_2012.csv"):
+        with open('./kluge_fx_2012.csv', 'a') as f:
             writer = csv.writer(f, lineterminator='\n')
             writer.writerow(data_list)
     else:
-        with open('./kluge_fx_2016.csv', 'w') as f:
+        with open('./kluge_fx_2012.csv', 'w') as f:
             # text_data.append(data_list)
             writer = csv.writer(f, lineterminator='\n')
             list = [text_data, data_list]
@@ -49,21 +49,16 @@ def writeCSV(text_data, data_list):
             # writer.writerow(data_list)
 
 
-def BS(url, klug_url):
+def BS(url):
     html = urlopen(url)
     bsObj = BeautifulSoup(html.read(), "html.parser")
+    return bsObj
     # time.sleep(3)
-    getText(bsObj, text_data)
+    # getText(bsObj, text_data)
     # URL = klug_url + getNextURL(bsObj)
     # # time.sleep(5)
     # browser.get(URL)
 
-
-def sortURL(urls):
-    temp　= []
-    for i in range(len(urls)):
-        temp.append(urls[len(urls)]-i)
-    urls = temp
 
 if __name__ == '__main__':
     text_data = ['head','date','text','景気', '物価','金利','マネーサプライ','貿易収支'
@@ -72,18 +67,23 @@ if __name__ == '__main__':
     klug_url = 'http://klug-fx.jp'
     try:
         # URL = 'http://klug-fx.jp/fxnews/detail.php?id=26906'
-        URL = 'http://klug-fx.jp/fxnews/daily.php?ymd=2016-01-01'
+        URL = 'http://klug-fx.jp/fxnews/daily.php?ymd=2012-01-03'
         browser = webdriver.PhantomJS()
         browser.get(URL)
         # time.sleep(3)
         while(browser.find_elements_by_xpath('//ul[@class="phase1_pagenav"]/li[2]/a')!=None):
             html = urlopen(browser.current_url)
             bsObj_top = BeautifulSoup(html.read(), "html.parser")
-            urls = bsObj_top.find("ul", {"class":"phase1_article_list"}).find_all("a").get("href")
-            sortURL(urls)
+            urls = bsObj_top.find("ul", {"class":"phase1_article_list"}).find_all("a")
+            urls.reverse()
             for url in urls:
-                BS(klug_url+url, klug_url)
-
+                link = klug_url+url.get("href")
+                data = BS(link)
+                getText(data, text_data)
+            # getNextURL(bsObj_top)
+            browser.get(klug_url + getNextURL(bsObj_top))
 
     finally:
         browser.quit()
+
+
